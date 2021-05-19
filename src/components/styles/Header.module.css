@@ -1,0 +1,26 @@
+.container {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container div {
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.container div img {
+    margin: 0px 10px;
+}
+
+.headerLogoImg {
+    width: 40px;
+    margin: 10px 20px;
+}
+
+.headerTextImg {
+    width: 100px;
+    object-fit: contain;
+}

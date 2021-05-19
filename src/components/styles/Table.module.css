@@ -1,0 +1,45 @@
+.container {
+    width: 85%;
+    margin: auto;
+    font-size: 1rem;
+}
+
+.container, tr {
+    border: 2px solid #eaeaea;
+    border-collapse: collapse;
+}
+
+.container td {
+    padding: 1.2rem;
+}
+
+.container td:not(:first-child) {
+    text-align: center;
+}
+
+.container tr:first-child {
+    background: #eaeaea;
+}
+
+.container input[type="radio"] {
+    margin: 0px 10px;
+    width: 15px;
+    height: 15px;
+}
+
+.access {
+    color: var(--green);
+    background: rgba(39, 174, 96, 0.3);
+    padding: 5px 50px;
+    border-radius: 20px;
+    border: 1px solid var(--green);
+}
+
+.restricted {
+    color: var(--red);
+    background: rgba(255, 8, 8, 0.3);
+    padding: 5px 50px;
+    border-radius: 20px;
+    border: 1px solid var(--red);
+
+}

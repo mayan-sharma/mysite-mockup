@@ -1,0 +1,34 @@
+.container {
+    width: 310px;
+    height: 100vh;
+    background: var(--lightPurple);
+    font-size: 1.2rem;
+}
+
+.container ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.container li {
+    display: flex;
+    padding-left: 35px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container li:last-child {
+    background: var(--purple2);
+    border-left: 6px solid var(--purple);
+}
+
+.container li:active {
+    background: var(--purple2);
+    border-left: 6px solid var(--purple);
+}
+
+.container img {
+    width: 27px;
+    margin-right: 25px;
+}
